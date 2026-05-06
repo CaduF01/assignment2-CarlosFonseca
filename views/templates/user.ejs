@@ -1,0 +1,13 @@
+<tr>
+    <td><%= user.name %> (<%= user.user_type %>)</td>
+    <td>
+        <form action="/admin/promote" method="post" class="d-inline">
+            <input type="hidden" name="username" value="<%= user.name %>">
+            <button type="submit" class="btn btn-success btn-sm">Promote to Admin</button>
+        </form>
+        <form action="/admin/demote" method="post" class="d-inline">
+            <input type="hidden" name="username" value="<%= user.name %>">
+            <button type="submit" class="btn btn-danger btn-sm">Demote to User</button>
+        </form>
+    </td>
+</tr>
