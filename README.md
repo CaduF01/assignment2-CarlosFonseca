@@ -1,4 +1,4 @@
-# COMP 2537 | Assignment 1
+# COMP 2537 | Assignment 2
 
 Student Name: Carlos Fonseca
 Student Set: 1A
@@ -6,8 +6,7 @@ Student Set: 1A
 A simple Node.js / Express website with MongoDB-backed user accounts and sessions.
 
 ## Live site
-https://assignment1-carlosfonseca.onrender.com
-
+https://assignment2-carlosfonseca.onrender.com/
 ## Run locally
 ```
 npm install
